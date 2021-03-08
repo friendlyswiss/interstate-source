@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2021-02-13T03:24:03Z",
+  "timestamp": "2021-03-08T01:44:21Z",
   "features": [
     {
       "type": "Feature",
@@ -146,15 +146,17 @@
       "properties": {
         "@id": "way/4331382",
         "bicycle": "no",
+        "destination:lanes": "||Cass Avenue;Lemont Road North|Lemont Road South",
         "foot": "no",
         "hgv": "designated",
         "highway": "motorway",
         "horse": "no",
-        "lanes": "3",
+        "lanes": "4",
         "maxspeed": "55 mph",
         "oneway": "yes",
         "ref": "I 55",
-        "sidewalk": "none"
+        "sidewalk": "none",
+        "turn:lanes": "|||slight_right"
       },
       "geometry": {
         "type": "LineString",
@@ -166,18 +168,6 @@
           [
             -88.0105243,
             41.7147374
-          ],
-          [
-            -88.0091658,
-            41.7154871
-          ],
-          [
-            -88.0077193,
-            41.7162022
-          ],
-          [
-            -88.007417,
-            41.716384
           ]
         ]
       },
@@ -292,6 +282,7 @@
       "properties": {
         "@id": "way/4369902",
         "bicycle": "no",
+        "destination:lanes": "none|none|South Lemont Road;North Lemont Road",
         "foot": "no",
         "hgv": "designated",
         "highway": "motorway",
@@ -301,7 +292,8 @@
         "name": "Adlai Stevenson Expressway",
         "oneway": "yes",
         "ref": "I 55",
-        "sidewalk": "none"
+        "sidewalk": "none",
+        "turn:lanes": "none|none|through;slight_right"
       },
       "geometry": {
         "type": "LineString",
@@ -317,10 +309,6 @@
           [
             -88.0031428,
             41.7188903
-          ],
-          [
-            -88.0062649,
-            41.7172566
           ]
         ]
       },
@@ -340,6 +328,7 @@
         "lanes": "4",
         "layer": "1",
         "maxspeed": "55 mph",
+        "name": "Adlai Stevenson Expressway",
         "oneway": "yes",
         "ref": "I 55",
         "sidewalk": "none",
@@ -411,6 +400,7 @@
       "properties": {
         "@id": "way/4477306",
         "bicycle": "no",
+        "destination:lanes": "none|none|Joliet Road;County Line Road;Wisconsin;Indiana;Kingery Road",
         "foot": "no",
         "hgv": "designated",
         "highway": "motorway",
@@ -420,7 +410,8 @@
         "name": "Adlai Stevenson Expressway",
         "oneway": "yes",
         "ref": "I 55",
-        "sidewalk": "none"
+        "sidewalk": "none",
+        "turn:lanes": "none|none|through;slight_right"
       },
       "geometry": {
         "type": "LineString",
@@ -448,58 +439,6 @@
           [
             -87.9511306,
             41.7387756
-          ],
-          [
-            -87.9492835,
-            41.7394326
-          ],
-          [
-            -87.9463224,
-            41.7406174
-          ],
-          [
-            -87.943756,
-            41.7416677
-          ],
-          [
-            -87.9424857,
-            41.7422249
-          ],
-          [
-            -87.9415244,
-            41.7427052
-          ],
-          [
-            -87.94034,
-            41.7433712
-          ],
-          [
-            -87.9392585,
-            41.7440373
-          ],
-          [
-            -87.9386105,
-            41.7445208
-          ],
-          [
-            -87.9381969,
-            41.7448421
-          ],
-          [
-            -87.937808,
-            41.7451516
-          ],
-          [
-            -87.9366235,
-            41.7460865
-          ],
-          [
-            -87.9353275,
-            41.7471239
-          ],
-          [
-            -87.9350535,
-            41.7473657
           ]
         ]
       },
@@ -567,6 +506,7 @@
         "horse": "no",
         "lanes": "3",
         "layer": "1",
+        "name": "Adlai Stevenson Expressway",
         "oneway": "yes",
         "ref": "I 55",
         "sidewalk": "none"
@@ -595,6 +535,7 @@
       "properties": {
         "@id": "way/4477309",
         "bicycle": "no",
+        "destination:lanes": "none|none|1st Avenue;Harlem Avenue",
         "foot": "no",
         "hgv": "designated",
         "highway": "motorway",
@@ -605,7 +546,8 @@
         "oneway": "yes",
         "ref": "I 55",
         "sidewalk": "none",
-        "source:maxspeed": "sign"
+        "source:maxspeed": "sign",
+        "turn:lanes": "||through;slight_right"
       },
       "geometry": {
         "type": "LineString",
@@ -629,34 +571,6 @@
           [
             -87.7940277,
             41.8012078
-          ],
-          [
-            -87.7953924,
-            41.8008303
-          ],
-          [
-            -87.79655,
-            41.80055
-          ],
-          [
-            -87.7980875,
-            41.80028
-          ],
-          [
-            -87.800275,
-            41.7998462
-          ],
-          [
-            -87.8018741,
-            41.7994174
-          ],
-          [
-            -87.8034619,
-            41.7988607
-          ],
-          [
-            -87.8052689,
-            41.7981296
           ]
         ]
       },
@@ -696,6 +610,109 @@
         ]
       },
       "id": "way/4477310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/4572278",
+        "bicycle": "no",
+        "bridge": "yes",
+        "destination": "Lake Shore Drive",
+        "destination:ref": "US 41 North",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "2",
+        "layer": "1",
+        "name": "Adlai Stevenson Expressway",
+        "oneway": "yes",
+        "ref": "I 55",
+        "sidewalk": "none",
+        "turn:lanes": "||slight_right|slight_right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.6167654,
+            41.8479933
+          ],
+          [
+            -87.6161747,
+            41.848042
+          ],
+          [
+            -87.6155558,
+            41.8480485
+          ],
+          [
+            -87.614115,
+            41.8480754
+          ],
+          [
+            -87.613876,
+            41.8480881
+          ],
+          [
+            -87.613653,
+            41.8481183
+          ],
+          [
+            -87.6134288,
+            41.8481719
+          ],
+          [
+            -87.6131858,
+            41.8482441
+          ],
+          [
+            -87.61296,
+            41.8483477
+          ],
+          [
+            -87.6127958,
+            41.8484582
+          ],
+          [
+            -87.6126471,
+            41.8485798
+          ],
+          [
+            -87.6125155,
+            41.8487183
+          ],
+          [
+            -87.612419,
+            41.8488476
+          ],
+          [
+            -87.6123301,
+            41.8490346
+          ],
+          [
+            -87.6122553,
+            41.8491906
+          ],
+          [
+            -87.6121778,
+            41.8493994
+          ],
+          [
+            -87.6121741,
+            41.8495982
+          ],
+          [
+            -87.6122113,
+            41.849767
+          ],
+          [
+            -87.6122535,
+            41.8499452
+          ]
+        ]
+      },
+      "id": "way/4572278"
     },
     {
       "type": "Feature",
@@ -7276,11 +7293,12 @@
       "properties": {
         "@id": "way/22097374",
         "bicycle": "no",
+        "destination:lanes": "none|none|County Line Road|Wisconsin",
         "foot": "no",
         "hgv": "designated",
         "highway": "motorway",
         "horse": "no",
-        "lanes": "3",
+        "lanes": "4",
         "maxspeed": "55 mph",
         "name": "Adlai Stevenson Expressway",
         "oneway": "yes",
@@ -7288,7 +7306,8 @@
         "sidewalk": "none",
         "tiger:cfcc": "A11:A15;A63",
         "tiger:county": "Cook, IL:DuPage, IL",
-        "tiger:name_base": "I-55"
+        "tiger:name_base": "I-55",
+        "turn:lanes": "none|none|none|slight_right"
       },
       "geometry": {
         "type": "LineString",
@@ -7300,34 +7319,6 @@
           [
             -87.8976268,
             41.760797
-          ],
-          [
-            -87.8992747,
-            41.7607522
-          ],
-          [
-            -87.9013947,
-            41.7607266
-          ],
-          [
-            -87.9031628,
-            41.7606882
-          ],
-          [
-            -87.9042117,
-            41.7606443
-          ],
-          [
-            -87.9053618,
-            41.7605316
-          ],
-          [
-            -87.9062311,
-            41.7604068
-          ],
-          [
-            -87.9068101,
-            41.7603076
           ]
         ]
       },
@@ -24235,6 +24226,7 @@
         "@id": "way/31232951",
         "bicycle": "no",
         "bridge": "yes",
+        "destination:lanes": "Lake Shore Drive|Lake Shore Drive|Cermak Road;Indiana;Dan Ryan Expressway",
         "foot": "no",
         "hgv": "designated",
         "highway": "motorway",
@@ -24244,7 +24236,8 @@
         "name": "Stevenson Expressway",
         "oneway": "yes",
         "ref": "I 55",
-        "sidewalk": "none"
+        "sidewalk": "none",
+        "turn:lanes": "none|none|through;slight_right"
       },
       "geometry": {
         "type": "LineString",
@@ -24352,14 +24345,6 @@
           [
             -87.649458,
             41.845413
-          ],
-          [
-            -87.6492269,
-            41.8454309
-          ],
-          [
-            -87.648836,
-            41.8454579
           ]
         ]
       },
@@ -24505,6 +24490,7 @@
       "type": "Feature",
       "properties": {
         "@id": "way/31233025",
+        "alt_name": "Adlai Stevenson Expressway",
         "bicycle": "no",
         "foot": "no",
         "hgv": "designated",
@@ -24512,7 +24498,7 @@
         "horse": "no",
         "lanes": "4",
         "maxspeed": "55 mph",
-        "name": "Adlai Stevenson Expressway",
+        "name": "Stevenson Expressway",
         "oneway": "yes",
         "ref": "I 55",
         "sidewalk": "none",
@@ -25178,17 +25164,19 @@
       "properties": {
         "@id": "way/31233301",
         "bicycle": "no",
+        "destination:lanes": "none|none|Pulaski Road|Kedzie Avenue",
         "foot": "no",
         "hgv": "designated",
         "highway": "motorway",
         "horse": "no",
-        "lanes": "3",
+        "lanes": "4",
         "maxspeed": "55 mph",
         "name": "Adlai Stevenson Expressway",
         "oneway": "yes",
         "ref": "I 55",
         "sidewalk": "none",
-        "source:maxspeed": "sign"
+        "source:maxspeed": "sign",
+        "turn:lanes": "none|none|none|slight_right"
       },
       "geometry": {
         "type": "LineString",
@@ -25200,14 +25188,6 @@
           [
             -87.6954078,
             41.8322867
-          ],
-          [
-            -87.6988342,
-            41.8312117
-          ],
-          [
-            -87.7043164,
-            41.8294876
           ]
         ]
       },
@@ -25280,15 +25260,17 @@
       "properties": {
         "@id": "way/31233338",
         "bicycle": "no",
+        "destination:lanes": "none|none|none|California Avenue",
         "foot": "no",
         "hgv": "designated",
         "highway": "motorway",
         "horse": "no",
-        "lanes": "3",
+        "lanes": "4",
         "name": "Adlai Stevenson Expressway",
         "oneway": "yes",
         "ref": "I 55",
-        "sidewalk": "none"
+        "sidewalk": "none",
+        "turn:lanes": "none|none|none|slight_right"
       },
       "geometry": {
         "type": "LineString",
@@ -25300,14 +25282,6 @@
           [
             -87.7041858,
             41.8292542
-          ],
-          [
-            -87.6987738,
-            41.8309546
-          ],
-          [
-            -87.6951962,
-            41.8320754
           ]
         ]
       },
@@ -25319,13 +25293,14 @@
         "@id": "way/31233339",
         "bicycle": "no",
         "bridge": "yes",
+        "bridge:name": "Stevenson Expressway",
         "foot": "no",
         "hgv": "designated",
         "highway": "motorway",
         "horse": "no",
         "lanes": "3",
         "layer": "1",
-        "name": "Stevenson Expressway",
+        "name": "Adlai Stevenson Expressway",
         "oneway": "yes",
         "ref": "I 55",
         "sidewalk": "none"
@@ -25392,18 +25367,6 @@
           [
             -87.7296014,
             41.8215314
-          ],
-          [
-            -87.7315703,
-            41.8209093
-          ],
-          [
-            -87.7374483,
-            41.8190594
-          ],
-          [
-            -87.7380864,
-            41.81886
           ]
         ]
       },
@@ -25415,13 +25378,14 @@
         "@id": "way/31233342",
         "bicycle": "no",
         "bridge": "yes",
+        "bridge:name": "Stevenson Expressway",
         "foot": "no",
         "hgv": "designated",
         "highway": "motorway",
         "horse": "no",
         "lanes": "3",
         "layer": "1",
-        "name": "Stevenson Expressway",
+        "name": "Adlai Stevenson Expressway",
         "oneway": "yes",
         "ref": "I 55",
         "sidewalk": "none"
@@ -25517,13 +25481,14 @@
         "@id": "way/31233444",
         "bicycle": "no",
         "bridge": "yes",
+        "bridge:name": "Stevenson Expy",
         "foot": "no",
         "hgv": "designated",
         "highway": "motorway",
         "horse": "no",
         "lanes": "3",
         "layer": "1",
-        "name": "Stevenson Expy",
+        "name": "Adlai Stevenson Expressway",
         "oneway": "yes",
         "ref": "I 55",
         "sidewalk": "none"
@@ -25857,6 +25822,7 @@
         "horse": "no",
         "lanes": "3",
         "layer": "1",
+        "name": "Adlai Stevenson Expressway",
         "oneway": "yes",
         "ref": "I 55",
         "sidewalk": "none"
@@ -26014,6 +25980,7 @@
         "horse": "no",
         "lanes": "3",
         "layer": "1",
+        "name": "Adlai Stevenson Expressway",
         "oneway": "yes",
         "ref": "I 55",
         "sidewalk": "none"
@@ -27815,18 +27782,20 @@
       "properties": {
         "@id": "way/33117759",
         "bicycle": "no",
+        "destination:lanes": "Chicago|Chicago|Chicago|Wisconsin",
         "foot": "no",
         "hgv": "designated",
         "highway": "motorway",
         "horse": "no",
-        "lanes": "3",
+        "lanes": "4",
         "maxspeed": "55 mph",
         "name": "Adlai Stevenson Expressway",
         "oneway": "yes",
         "ref": "I 55",
         "sidewalk": "none",
         "tiger:cfcc": "A63",
-        "tiger:county": "Cook, IL"
+        "tiger:county": "Cook, IL",
+        "turn:lanes": "none|none|none|right"
       },
       "geometry": {
         "type": "LineString",
@@ -27838,30 +27807,6 @@
           [
             -87.9076432,
             41.7593116
-          ],
-          [
-            -87.9045382,
-            41.760151
-          ],
-          [
-            -87.9036864,
-            41.7603552
-          ],
-          [
-            -87.9032832,
-            41.7604296
-          ],
-          [
-            -87.9025834,
-            41.7605002
-          ],
-          [
-            -87.9013729,
-            41.7605562
-          ],
-          [
-            -87.897361,
-            41.7606446
           ]
         ]
       },
@@ -41509,6 +41454,7 @@
         "horse": "no",
         "lanes": "3",
         "layer": "1",
+        "name": "Adlai Stevenson Expressway",
         "oneway": "yes",
         "ref": "I 55",
         "sidewalk": "none",
@@ -41584,6 +41530,7 @@
         "horse": "no",
         "lanes": "3",
         "layer": "1",
+        "name": "Adlai Stevenson Expressway",
         "oneway": "yes",
         "ref": "I 55",
         "sidewalk": "none",
@@ -46885,6 +46832,7 @@
         "horse": "no",
         "lanes": "3",
         "layer": "1",
+        "name": "Adlai Stevenson Expressway",
         "oneway": "yes",
         "ref": "I 55",
         "sidewalk": "none",
@@ -68748,6 +68696,7 @@
         "horse": "no",
         "lanes": "3",
         "layer": "1",
+        "name": "Adlai Stevenson Expressway",
         "oneway": "yes",
         "ref": "I 55",
         "sidewalk": "none",
@@ -80289,13 +80238,14 @@
       "type": "Feature",
       "properties": {
         "@id": "way/124471142",
+        "alt_name": "Adlai Stevenson Expressway",
         "bicycle": "no",
         "foot": "no",
         "hgv": "designated",
         "highway": "motorway",
         "horse": "no",
         "lanes": "3",
-        "name": "Adlai Stevenson Expressway",
+        "name": "Stevenson Expressway",
         "oneway": "yes",
         "ref": "I 55",
         "sidewalk": "none"
@@ -105981,6 +105931,7 @@
       "properties": {
         "@id": "way/381675610",
         "bicycle": "no",
+        "destination:lanes": "none|none|Harlem Avenue;Central Avenue",
         "foot": "no",
         "hgv": "designated",
         "highway": "motorway",
@@ -105991,7 +105942,8 @@
         "oneway": "yes",
         "ref": "I 55",
         "sidewalk": "none",
-        "source:maxspeed": "sign"
+        "source:maxspeed": "sign",
+        "turn:lanes": "none|none|through;slight_right"
       },
       "geometry": {
         "type": "LineString",
@@ -106043,14 +105995,6 @@
           [
             -87.7570436,
             41.8128688
-          ],
-          [
-            -87.762545,
-            41.8111245
-          ],
-          [
-            -87.7690576,
-            41.8090993
           ]
         ]
       },
@@ -106114,46 +106058,6 @@
           [
             -87.7544619,
             41.8134057
-          ],
-          [
-            -87.7519549,
-            41.8141854
-          ],
-          [
-            -87.7494918,
-            41.8149612
-          ],
-          [
-            -87.7480728,
-            41.8154065
-          ],
-          [
-            -87.7473931,
-            41.8156265
-          ],
-          [
-            -87.7468153,
-            41.815829
-          ],
-          [
-            -87.7460227,
-            41.8161224
-          ],
-          [
-            -87.7455151,
-            41.8163249
-          ],
-          [
-            -87.744598,
-            41.816714
-          ],
-          [
-            -87.7442335,
-            41.8168582
-          ],
-          [
-            -87.7438511,
-            41.8169906
           ]
         ]
       },
@@ -113938,6 +113842,7 @@
         "highway": "motorway",
         "horse": "no",
         "lanes": "3",
+        "name": "Adlai Stevenson Expressway",
         "oneway": "yes",
         "ref": "I 55",
         "sidewalk": "none",
@@ -114709,18 +114614,6 @@
           [
             -87.6226635,
             41.8478853
-          ],
-          [
-            -87.6224114,
-            41.8478913
-          ],
-          [
-            -87.6206947,
-            41.8479233
-          ],
-          [
-            -87.6202062,
-            41.8479263
           ]
         ]
       },
@@ -119054,6 +118947,693 @@
         ]
       },
       "id": "way/906590218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/907971878",
+        "bicycle": "no",
+        "bridge": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "layer": "1",
+        "name": "Stevenson Expressway",
+        "oneway": "yes",
+        "ref": "I 55",
+        "sidewalk": "none"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.649458,
+            41.845413
+          ],
+          [
+            -87.6492269,
+            41.8454309
+          ],
+          [
+            -87.648836,
+            41.8454579
+          ]
+        ]
+      },
+      "id": "way/907971878"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/907981899",
+        "bicycle": "no",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "55 mph",
+        "name": "Adlai Stevenson Expressway",
+        "oneway": "yes",
+        "ref": "I 55",
+        "sidewalk": "none",
+        "source:maxspeed": "sign"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.6954078,
+            41.8322867
+          ],
+          [
+            -87.6988342,
+            41.8312117
+          ],
+          [
+            -87.7043164,
+            41.8294876
+          ]
+        ]
+      },
+      "id": "way/907981899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/907986728",
+        "bicycle": "no",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "name": "Adlai Stevenson Expressway",
+        "oneway": "yes",
+        "ref": "I 55",
+        "sidewalk": "none"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.7041858,
+            41.8292542
+          ],
+          [
+            -87.6987738,
+            41.8309546
+          ],
+          [
+            -87.6951962,
+            41.8320754
+          ]
+        ]
+      },
+      "id": "way/907986728"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/908031371",
+        "bicycle": "no",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "55 mph",
+        "name": "Adlai Stevenson Expressway",
+        "oneway": "yes",
+        "ref": "I 55",
+        "sidewalk": "none",
+        "source:maxspeed": "sign"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.7940277,
+            41.8012078
+          ],
+          [
+            -87.7953924,
+            41.8008303
+          ],
+          [
+            -87.79655,
+            41.80055
+          ],
+          [
+            -87.7980875,
+            41.80028
+          ],
+          [
+            -87.800275,
+            41.7998462
+          ],
+          [
+            -87.8018741,
+            41.7994174
+          ],
+          [
+            -87.8034619,
+            41.7988607
+          ],
+          [
+            -87.8052689,
+            41.7981296
+          ]
+        ]
+      },
+      "id": "way/908031371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/908454533",
+        "bicycle": "no",
+        "destination:lanes": "Lake Shore Drive;Museum Campus|Lake Shore Drive;Museum Campus|Lake Shore Drive;McCormick Place;Parking Lots B C;Lakeside Center;Arie Crown|Lake Shore Drive;McCormick Place;Lakeside Center;Arie Crown|Martin L King Drive;Parking Lot A;Wintrust Arena",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "5",
+        "name": "Adlai Stevenson Expressway",
+        "oneway": "yes",
+        "ref": "I 55",
+        "sidewalk": "none",
+        "turn:lanes": "none|none|none|none|slight_right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.6226635,
+            41.8478853
+          ],
+          [
+            -87.6224114,
+            41.8478913
+          ]
+        ]
+      },
+      "id": "way/908454533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/908454534",
+        "bicycle": "no",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "4",
+        "name": "Adlai Stevenson Expressway",
+        "oneway": "yes",
+        "ref": "I 55",
+        "sidewalk": "none"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.6224114,
+            41.8478913
+          ],
+          [
+            -87.6206947,
+            41.8479233
+          ],
+          [
+            -87.6202062,
+            41.8479263
+          ]
+        ]
+      },
+      "id": "way/908454534"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/908642020",
+        "bicycle": "no",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "55 mph",
+        "name": "Adlai Stevenson Expressway",
+        "oneway": "yes",
+        "ref": "I 55",
+        "sidewalk": "none",
+        "tiger:cfcc": "A63",
+        "tiger:county": "Cook, IL"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.9076432,
+            41.7593116
+          ],
+          [
+            -87.9045382,
+            41.760151
+          ],
+          [
+            -87.9036864,
+            41.7603552
+          ],
+          [
+            -87.9032832,
+            41.7604296
+          ],
+          [
+            -87.9025834,
+            41.7605002
+          ],
+          [
+            -87.9013729,
+            41.7605562
+          ],
+          [
+            -87.897361,
+            41.7606446
+          ]
+        ]
+      },
+      "id": "way/908642020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/908725594",
+        "bicycle": "no",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "55 mph",
+        "name": "Adlai Stevenson Expressway",
+        "oneway": "yes",
+        "ref": "I 55",
+        "sidewalk": "none",
+        "tiger:cfcc": "A11:A15;A63",
+        "tiger:county": "Cook, IL:DuPage, IL",
+        "tiger:name_base": "I-55"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.8976268,
+            41.760797
+          ],
+          [
+            -87.8992747,
+            41.7607522
+          ],
+          [
+            -87.9013947,
+            41.7607266
+          ],
+          [
+            -87.9031628,
+            41.7606882
+          ],
+          [
+            -87.9042117,
+            41.7606443
+          ],
+          [
+            -87.9053618,
+            41.7605316
+          ],
+          [
+            -87.9062311,
+            41.7604068
+          ],
+          [
+            -87.9068101,
+            41.7603076
+          ]
+        ]
+      },
+      "id": "way/908725594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/909562319",
+        "bicycle": "no",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "55 mph",
+        "oneway": "yes",
+        "ref": "I 55",
+        "sidewalk": "none"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -88.0105243,
+            41.7147374
+          ],
+          [
+            -88.0091658,
+            41.7154871
+          ],
+          [
+            -88.0077193,
+            41.7162022
+          ],
+          [
+            -88.007417,
+            41.716384
+          ]
+        ]
+      },
+      "id": "way/909562319"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/909632945",
+        "bicycle": "no",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "55 mph",
+        "name": "Adlai Stevenson Expressway",
+        "oneway": "yes",
+        "ref": "I 55",
+        "sidewalk": "none"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -88.0031428,
+            41.7188903
+          ],
+          [
+            -88.0062649,
+            41.7172566
+          ]
+        ]
+      },
+      "id": "way/909632945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/909646151",
+        "bicycle": "no",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "55 mph",
+        "name": "Adlai Stevenson Expressway",
+        "oneway": "yes",
+        "ref": "I 55",
+        "sidewalk": "none",
+        "source:maxspeed": "sign"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.7570436,
+            41.8128688
+          ],
+          [
+            -87.762545,
+            41.8111245
+          ],
+          [
+            -87.7690576,
+            41.8090993
+          ]
+        ]
+      },
+      "id": "way/909646151"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/910399025",
+        "bicycle": "no",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "name": "Adlai Stevenson Expressway",
+        "oneway": "yes",
+        "ref": "I 55",
+        "sidewalk": "none"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.7494918,
+            41.8149612
+          ],
+          [
+            -87.7480728,
+            41.8154065
+          ],
+          [
+            -87.7473931,
+            41.8156265
+          ],
+          [
+            -87.7468153,
+            41.815829
+          ],
+          [
+            -87.7460227,
+            41.8161224
+          ],
+          [
+            -87.7455151,
+            41.8163249
+          ],
+          [
+            -87.744598,
+            41.816714
+          ],
+          [
+            -87.7442335,
+            41.8168582
+          ],
+          [
+            -87.7438511,
+            41.8169906
+          ]
+        ]
+      },
+      "id": "way/910399025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/910399026",
+        "bicycle": "no",
+        "destination:lanes": "none|none|Pulaski Road;Cicero Avenue",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "name": "Adlai Stevenson Expressway",
+        "oneway": "yes",
+        "ref": "I 55",
+        "sidewalk": "none",
+        "turn:lanes": "||through;slight_right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.7544619,
+            41.8134057
+          ],
+          [
+            -87.7519549,
+            41.8141854
+          ],
+          [
+            -87.7494918,
+            41.8149612
+          ]
+        ]
+      },
+      "id": "way/910399026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911241853",
+        "bicycle": "no",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "55 mph",
+        "name": "Adlai Stevenson Expressway",
+        "oneway": "yes",
+        "ref": "I 55",
+        "sidewalk": "none"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.9511306,
+            41.7387756
+          ],
+          [
+            -87.9492835,
+            41.7394326
+          ],
+          [
+            -87.9463224,
+            41.7406174
+          ],
+          [
+            -87.943756,
+            41.7416677
+          ],
+          [
+            -87.9424857,
+            41.7422249
+          ],
+          [
+            -87.9415244,
+            41.7427052
+          ],
+          [
+            -87.94034,
+            41.7433712
+          ],
+          [
+            -87.9392585,
+            41.7440373
+          ],
+          [
+            -87.9386105,
+            41.7445208
+          ],
+          [
+            -87.9381969,
+            41.7448421
+          ],
+          [
+            -87.937808,
+            41.7451516
+          ],
+          [
+            -87.9366235,
+            41.7460865
+          ],
+          [
+            -87.9353275,
+            41.7471239
+          ],
+          [
+            -87.9350535,
+            41.7473657
+          ]
+        ]
+      },
+      "id": "way/911241853"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911259054",
+        "bicycle": "no",
+        "destination:lanes": "none|none|Central Avenue;Hawthorne Race Course;Midway Airport;Cicero Avenue",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "55 mph",
+        "name": "Adlai Stevenson Expressway",
+        "oneway": "yes",
+        "ref": "I 55",
+        "sidewalk": "none",
+        "source:maxspeed": "sign",
+        "turn:lanes": "none|none|through;slight_right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.7296014,
+            41.8215314
+          ],
+          [
+            -87.7315703,
+            41.8209093
+          ],
+          [
+            -87.7374483,
+            41.8190594
+          ]
+        ]
+      },
+      "id": "way/911259054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911259055",
+        "bicycle": "no",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "55 mph",
+        "name": "Adlai Stevenson Expressway",
+        "oneway": "yes",
+        "ref": "I 55",
+        "sidewalk": "none",
+        "source:maxspeed": "sign"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -87.7374483,
+            41.8190594
+          ],
+          [
+            -87.7380864,
+            41.81886
+          ]
+        ]
+      },
+      "id": "way/911259055"
     }
   ]
 }
