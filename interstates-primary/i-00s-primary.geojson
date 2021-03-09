@@ -2,7 +2,7 @@
   "type": "FeatureCollection",
   "generator": "overpass-ide",
   "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
-  "timestamp": "2021-02-15T16:24:02Z",
+  "timestamp": "2021-03-09T01:25:07Z",
   "features": [
     {
       "type": "Feature",
@@ -1555,6 +1555,7 @@
         "@id": "way/10986848",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "Tampa International Airport;Saint Petersburg|Tampa International Airport;Saint Petersburg|Downtown;Jefferson Street|Ocala",
         "fdot:fihs": "401",
         "fdot:sis": "yes",
         "foot": "no",
@@ -1570,6 +1571,7 @@
         "tiger:cfcc": "A15",
         "tiger:county": "Hillsborough, FL",
         "toll": "no",
+        "turn:lanes": "|||slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -1633,6 +1635,7 @@
         "foot": "no",
         "highway": "motorway",
         "horse": "no",
+        "lanes": "3",
         "motor_vehicle": "yes",
         "oneway": "yes",
         "ref": "I 4",
@@ -2909,6 +2912,7 @@
         "@id": "way/26215820",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "Brandon|none|none|none;Cruise Ships;22nd Street;21st Street;Ybor City National Historic Landmark District;Tourist Information Center",
         "fdot:fihs": "401",
         "fdot:sis": "yes",
         "foot": "no",
@@ -2924,6 +2928,7 @@
         "tiger:cfcc": "A15",
         "tiger:county": "Hillsborough, FL",
         "toll": "no",
+        "turn:lanes": "|||through;slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -2936,10 +2941,6 @@
           [
             -82.4436441,
             27.9647591
-          ],
-          [
-            -82.443081,
-            27.9647422
           ]
         ]
       },
@@ -2956,10 +2957,9 @@
         "highway": "motorway",
         "lanes": "3",
         "lit": "yes",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -3774,6 +3774,7 @@
         "@id": "way/26630961",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "none|none|none|none;Cruise Ships;22nd Street;21st Street",
         "fdot:fihs": "401",
         "fdot:sis": "yes",
         "foot": "no",
@@ -3789,6 +3790,7 @@
         "tiger:cfcc": "A15",
         "tiger:county": "Hillsborough, FL",
         "toll": "no",
+        "turn:lanes": "|||through;slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -3809,10 +3811,6 @@
           [
             -82.4294952,
             27.9654186
-          ],
-          [
-            -82.4304795,
-            27.9653932
           ]
         ]
       },
@@ -4149,6 +4147,7 @@
         "NHS": "Interstate",
         "bicycle": "no",
         "bridge": "yes",
+        "destination:lanes": "Port of Tampa;Tampa;Saint Petersburg;Ocala|Tampa;Saint Petersburg;Ocala|Tampa;Saint Petersburg;Ocala|Tampa;Cruise Ships;22nd Street;21st Street",
         "fdot:fihs": "401",
         "fdot:sis": "yes",
         "foot": "no",
@@ -4165,6 +4164,7 @@
         "tiger:cfcc": "A15",
         "tiger:county": "Hillsborough, FL",
         "toll": "no",
+        "turn:lanes": "slight_left;through|none|none|none",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -5280,6 +5280,7 @@
         "@id": "way/27082054",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "Busch Gardens;50th Street;Columbus Drive|Busch Gardens;50th Street;Columbus Drive;Orlando|Orlando|Orlando",
         "fdot:fihs": "401",
         "fdot:sis": "yes",
         "foot": "no",
@@ -5298,6 +5299,7 @@
         "tiger:name_base_1": "State Highway 400",
         "tiger:reviewed": "no",
         "toll": "no",
+        "turn:lanes": "slight_left|slight_left;through||",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -5698,10 +5700,9 @@
         "layer": "1",
         "lit": "yes",
         "maxspeed": "65 mph",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "surface": "concrete"
       },
       "geometry": {
@@ -5718,6 +5719,45 @@
         ]
       },
       "id": "way/28662927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/28663332",
+        "NHS": "STRAHNET",
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 2;US 83",
+        "tiger:cfcc": "A25",
+        "tiger:county": "Hidalgo, TX",
+        "tiger:name_base": "Expressway 83",
+        "tiger:name_base_1": "United States Highway 83",
+        "tiger:name_direction_prefix": "W"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.4195061,
+            26.2396371
+          ],
+          [
+            -98.4159356,
+            26.2392441
+          ],
+          [
+            -98.412983,
+            26.2388515
+          ],
+          [
+            -98.4116343,
+            26.2386623
+          ]
+        ]
+      },
+      "id": "way/28663332"
     },
     {
       "type": "Feature",
@@ -10569,24 +10609,8 @@
             28.240193
           ],
           [
-            -81.6488448,
-            28.2336131
-          ],
-          [
-            -81.6497659,
-            28.2329314
-          ],
-          [
-            -81.6567327,
-            28.2277751
-          ],
-          [
-            -81.6576768,
-            28.227034
-          ],
-          [
-            -81.6584873,
-            28.2263634
+            -81.6464664,
+            28.2353547
           ]
         ]
       },
@@ -10676,54 +10700,6 @@
           [
             -81.6075182,
             28.2665297
-          ],
-          [
-            -81.6047201,
-            28.2695081
-          ],
-          [
-            -81.6009823,
-            28.2734906
-          ],
-          [
-            -81.5991445,
-            28.2754423
-          ],
-          [
-            -81.5987287,
-            28.2758823
-          ],
-          [
-            -81.5975673,
-            28.2771154
-          ],
-          [
-            -81.5933423,
-            28.2816124
-          ],
-          [
-            -81.5917062,
-            28.2833582
-          ],
-          [
-            -81.5907505,
-            28.2843731
-          ],
-          [
-            -81.5876275,
-            28.2876872
-          ],
-          [
-            -81.5852581,
-            28.2901998
-          ],
-          [
-            -81.5823482,
-            28.2932836
-          ],
-          [
-            -81.5776089,
-            28.298309
           ]
         ]
       },
@@ -10889,58 +10865,6 @@
           [
             -81.5791208,
             28.2971313
-          ],
-          [
-            -81.5823554,
-            28.2937058
-          ],
-          [
-            -81.585498,
-            28.2903817
-          ],
-          [
-            -81.5878594,
-            28.2878666
-          ],
-          [
-            -81.5909892,
-            28.2845481
-          ],
-          [
-            -81.5919521,
-            28.2835322
-          ],
-          [
-            -81.5936132,
-            28.2817847
-          ],
-          [
-            -81.5978396,
-            28.2773129
-          ],
-          [
-            -81.5989996,
-            28.2760758
-          ],
-          [
-            -81.5994163,
-            28.2756329
-          ],
-          [
-            -81.6012619,
-            28.273678
-          ],
-          [
-            -81.6019736,
-            28.2728871
-          ],
-          [
-            -81.6094972,
-            28.2649457
-          ],
-          [
-            -81.6131286,
-            28.261084
           ]
         ]
       },
@@ -11037,6 +10961,7 @@
         "@id": "way/32062658",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "Orlando|Orlando|Orlando;Epcot;Disney Springs;South International Drive;Orlando World Center|Epcot;Disney Springs;South International Drive;Orlando World Center",
         "fdot:fihs": "401",
         "fdot:sis": "yes",
         "foot": "no",
@@ -11051,6 +10976,7 @@
         "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
         "surface": "asphalt",
         "toll": "no",
+        "turn:lanes": "none|none|through;slight_right|slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -11152,6 +11078,7 @@
         "@id": "way/32062661",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "Tampa|Tampa|Tampa;Kissimmee;Magic Kingdom|Kissimmee;Magic Kingdom",
         "fdot:fihs": "401",
         "fdot:sis": "yes",
         "foot": "no",
@@ -11169,6 +11096,7 @@
         "tiger:county": "Osceola, FL",
         "tiger:name_base": "I-4",
         "toll": "no",
+        "turn:lanes": "none|none|through;slight_right|slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -11214,20 +11142,20 @@
         "type": "LineString",
         "coordinates": [
           [
-            -81.5043759,
-            28.3775578
+            -81.5040379,
+            28.377935
           ],
           [
             -81.5027291,
             28.3793958
           ],
           [
-            -81.5015129,
-            28.3807497
+            -81.5015499,
+            28.3807105
           ],
           [
-            -81.5005365,
-            28.3818125
+            -81.5012175,
+            28.3810269
           ]
         ]
       },
@@ -11364,6 +11292,7 @@
         "@id": "way/32075497",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "none|none|none|Tampa;Florida's Turnpike;Miami;Ocala|Florida's Turnpike;Miami;Ocala",
         "fdot:county": "Orange, FL",
         "fdot:fihs": "401",
         "fdot:rci_section": "280",
@@ -11372,13 +11301,14 @@
         "hgv": "designated",
         "highway": "motorway",
         "horse": "no",
-        "lanes": "4",
+        "lanes": "5",
         "maxspeed": "65 mph",
         "oneway": "yes",
         "ref": "I 4",
         "sidewalk": "none",
         "surface": "asphalt",
         "toll": "no",
+        "turn:lanes": "none|none|none|through;slight_right|slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -11412,7 +11342,7 @@
         "hgv": "designated",
         "highway": "motorway",
         "horse": "no",
-        "lanes": "4",
+        "lanes": "5",
         "layer": "1",
         "maxspeed": "55 mph",
         "oneway": "yes",
@@ -11568,18 +11498,6 @@
           [
             -81.4302695,
             28.4965044
-          ],
-          [
-            -81.4282448,
-            28.498764
-          ],
-          [
-            -81.4235729,
-            28.5041049
-          ],
-          [
-            -81.4229593,
-            28.504812
           ]
         ]
       },
@@ -11838,16 +11756,8 @@
             28.5097085
           ],
           [
-            -81.4111107,
-            28.5096746
-          ],
-          [
-            -81.4134979,
-            28.5096726
-          ],
-          [
-            -81.4147891,
-            28.5096446
+            -81.4087271,
+            28.5096848
           ]
         ]
       },
@@ -13398,6 +13308,7 @@
         "FIXME:maxspeed": "check maxspeed (FDOT GIS data says it's 55 here)",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "none|none|none;Lee Road|Lee Road",
         "fdot:county": "Orange, FL",
         "fdot:fihs": "401",
         "fdot:rci_section": "280",
@@ -13414,6 +13325,7 @@
         "sidewalk": "none",
         "surface": "asphalt",
         "toll": "no",
+        "turn:lanes": "none|none|through;slight_right|slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -13481,6 +13393,7 @@
         "FIXME:maxspeed": "check maxspeed (FDOT GIS data says it's 55 here)",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "Daytona Beach|Daytona Beach|Daytona Beach;Maitland Boulevard;Apopka;Maitland Art Center|Maitland Boulevard;Apopka;Maitland Art Center",
         "fdot:county": "Orange, FL",
         "fdot:fihs": "401",
         "fdot:rci_section": "280",
@@ -13497,6 +13410,7 @@
         "sidewalk": "none",
         "surface": "asphalt",
         "toll": "no",
+        "turn:lanes": "none|none|through;slight_right|slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -33719,6 +33633,7 @@
       "properties": {
         "@id": "way/47234169",
         "bicycle": "no",
+        "destination:lanes": "Tampa International Airport;Saint Petersburg|Tampa International Airport;Saint Petersburg|Downtown",
         "foot": "no",
         "highway": "motorway",
         "horse": "no",
@@ -33728,6 +33643,7 @@
         "ref": "I 4",
         "surface": "concrete",
         "toll": "no",
+        "turn:lanes": "slight_left|slight_left|slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -34522,8 +34438,8 @@
             28.4250462
           ],
           [
-            -81.4741577,
-            28.4454406
+            -81.4740895,
+            28.4258473
           ]
         ]
       },
@@ -34582,9 +34498,9 @@
         "hgv": "designated",
         "highway": "motorway",
         "horse": "no",
-        "lanes": "3",
+        "lanes": "4",
         "maxspeed": "50 mph",
-        "note:maxspeed": "maxspeed variable; maximum shown is apparently 50",
+        "note:maxspeed": "maxspeed variable;maximum shown is apparently 50",
         "oneway": "yes",
         "ref": "I 4",
         "sidewalk": "none",
@@ -35012,8 +34928,8 @@
             28.4793389
           ],
           [
-            -81.4520531,
-            28.4770751
+            -81.4505932,
+            28.4782349
           ]
         ]
       },
@@ -35106,6 +35022,7 @@
         "@id": "way/83229450",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "none|none|Sand Lake Road;International Drive;Universal",
         "fdot:county": "Orange, FL",
         "fdot:fihs": "401",
         "fdot:rci_section": "280",
@@ -35122,6 +35039,7 @@
         "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
         "surface": "asphalt",
         "toll": "no",
+        "turn:lanes": "||through;slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -35206,254 +35124,6 @@
           [
             -81.464085,
             28.4668952
-          ],
-          [
-            -81.4650794,
-            28.4660553
-          ],
-          [
-            -81.4678044,
-            28.4638086
-          ],
-          [
-            -81.4715279,
-            28.4607414
-          ],
-          [
-            -81.4716204,
-            28.4606633
-          ],
-          [
-            -81.4717115,
-            28.4605846
-          ],
-          [
-            -81.4717969,
-            28.4605093
-          ],
-          [
-            -81.4718863,
-            28.4604293
-          ],
-          [
-            -81.471974,
-            28.4603506
-          ],
-          [
-            -81.4720592,
-            28.4602723
-          ],
-          [
-            -81.4721422,
-            28.4601952
-          ],
-          [
-            -81.4722244,
-            28.4601125
-          ],
-          [
-            -81.4723087,
-            28.4600286
-          ],
-          [
-            -81.4723941,
-            28.4599402
-          ],
-          [
-            -81.472475,
-            28.4598554
-          ],
-          [
-            -81.4725547,
-            28.4597692
-          ],
-          [
-            -81.4726295,
-            28.459685
-          ],
-          [
-            -81.4727088,
-            28.4595942
-          ],
-          [
-            -81.4727818,
-            28.4595069
-          ],
-          [
-            -81.4728543,
-            28.4594164
-          ],
-          [
-            -81.4729258,
-            28.4593247
-          ],
-          [
-            -81.4729973,
-            28.4592322
-          ],
-          [
-            -81.4730622,
-            28.4591422
-          ],
-          [
-            -81.4731314,
-            28.4590486
-          ],
-          [
-            -81.4731956,
-            28.4589547
-          ],
-          [
-            -81.4732588,
-            28.4588592
-          ],
-          [
-            -81.4733223,
-            28.4587617
-          ],
-          [
-            -81.4733837,
-            28.4586654
-          ],
-          [
-            -81.4734425,
-            28.4585696
-          ],
-          [
-            -81.4735014,
-            28.4584717
-          ],
-          [
-            -81.4735588,
-            28.4583732
-          ],
-          [
-            -81.4736136,
-            28.4582751
-          ],
-          [
-            -81.4736675,
-            28.4581746
-          ],
-          [
-            -81.4737199,
-            28.4580739
-          ],
-          [
-            -81.4737703,
-            28.4579719
-          ],
-          [
-            -81.473817,
-            28.4578711
-          ],
-          [
-            -81.4738636,
-            28.457768
-          ],
-          [
-            -81.4739085,
-            28.4576652
-          ],
-          [
-            -81.4739532,
-            28.4575626
-          ],
-          [
-            -81.4739951,
-            28.4574573
-          ],
-          [
-            -81.4740343,
-            28.4573526
-          ],
-          [
-            -81.4740708,
-            28.4572496
-          ],
-          [
-            -81.4741058,
-            28.4571455
-          ],
-          [
-            -81.474142,
-            28.4570379
-          ],
-          [
-            -81.4742093,
-            28.4568274
-          ],
-          [
-            -81.4742416,
-            28.45672
-          ],
-          [
-            -81.474271,
-            28.4566131
-          ],
-          [
-            -81.4742983,
-            28.4565111
-          ],
-          [
-            -81.4743249,
-            28.4563974
-          ],
-          [
-            -81.4743479,
-            28.4562862
-          ],
-          [
-            -81.4743698,
-            28.4561779
-          ],
-          [
-            -81.4743899,
-            28.4560696
-          ],
-          [
-            -81.4744078,
-            28.4559622
-          ],
-          [
-            -81.4744249,
-            28.4558509
-          ],
-          [
-            -81.4744402,
-            28.4557445
-          ],
-          [
-            -81.4744539,
-            28.4556321
-          ],
-          [
-            -81.4744645,
-            28.4555267
-          ],
-          [
-            -81.4744726,
-            28.4554101
-          ],
-          [
-            -81.4744821,
-            28.4553005
-          ],
-          [
-            -81.4744883,
-            28.455193
-          ],
-          [
-            -81.474493,
-            28.4550846
-          ],
-          [
-            -81.4744961,
-            28.4549738
-          ],
-          [
-            -81.4744975,
-            28.4538085
           ]
         ]
       },
@@ -35508,6 +35178,7 @@
         "@id": "way/83229452",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "none|none|none|International Airport;Cape Canaveral;International Drive;Central Florida Parkway;Sea World",
         "fdot:county": "Orange, FL",
         "fdot:fihs": "401",
         "fdot:rci_section": "280",
@@ -35524,14 +35195,15 @@
         "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
         "surface": "asphalt",
         "toll": "no",
+        "turn:lanes": "none|none|none|through;slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -81.5005365,
-            28.3818125
+            -81.5012175,
+            28.3810269
           ],
           [
             -81.4960898,
@@ -35613,12 +35285,8 @@
             28.3612495
           ],
           [
-            -81.5229842,
-            28.3572624
-          ],
-          [
-            -81.5305034,
-            28.3488815
+            -81.5201333,
+            28.3604407
           ]
         ]
       },
@@ -35677,6 +35345,7 @@
         "@id": "way/83229456",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "none|none|Epcot;Osceola Parkway;Animal Kingdom",
         "fdot:fihs": "401",
         "fdot:sis": "yes",
         "foot": "no",
@@ -35695,6 +35364,7 @@
         "tiger:name_base": "I-4",
         "tiger:name_base_1": "State Highway 400",
         "toll": "no",
+        "turn:lanes": "||through;slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -35731,30 +35401,6 @@
           [
             -81.5456594,
             28.3321654
-          ],
-          [
-            -81.543502,
-            28.3344463
-          ],
-          [
-            -81.5428653,
-            28.3351337
-          ],
-          [
-            -81.542338,
-            28.3357069
-          ],
-          [
-            -81.5418106,
-            28.3362764
-          ],
-          [
-            -81.5413332,
-            28.3367949
-          ],
-          [
-            -81.5388936,
-            28.3393687
           ]
         ]
       },
@@ -35766,6 +35412,7 @@
         "@id": "way/83229458",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "none|none|none|Orange Blossom Trail;Kaley Street",
         "fdot:county": "Orange, FL",
         "fdot:fihs": "401",
         "fdot:rci_section": "280",
@@ -35781,6 +35428,7 @@
         "sidewalk": "none",
         "surface": "asphalt",
         "toll": "no",
+        "turn:lanes": "none|none|none|slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -35793,14 +35441,6 @@
           [
             -81.4090649,
             28.5092264
-          ],
-          [
-            -81.4047016,
-            28.5092524
-          ],
-          [
-            -81.4014188,
-            28.5092791
           ]
         ]
       },
@@ -35812,6 +35452,7 @@
         "@id": "way/83229459",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "Tampa|Tampa|Tampa;Disney World;Celebration|Disney World;Celebration",
         "fdot:fihs": "401",
         "fdot:sis": "yes",
         "foot": "no",
@@ -35829,6 +35470,7 @@
         "tiger:county": "Osceola, FL",
         "tiger:name_base": "I-4",
         "toll": "no",
+        "turn:lanes": "||through;slight_right|slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -36167,46 +35809,6 @@
           [
             -81.4720355,
             28.4594577
-          ],
-          [
-            -81.4719555,
-            28.4595419
-          ],
-          [
-            -81.4718722,
-            28.4596266
-          ],
-          [
-            -81.471794,
-            28.4597061
-          ],
-          [
-            -81.4717058,
-            28.4597926
-          ],
-          [
-            -81.4716241,
-            28.4598694
-          ],
-          [
-            -81.4715345,
-            28.4599502
-          ],
-          [
-            -81.4714517,
-            28.4600253
-          ],
-          [
-            -81.4713576,
-            28.4601095
-          ],
-          [
-            -81.4712681,
-            28.4601863
-          ],
-          [
-            -81.4693557,
-            28.4617602
           ]
         ]
       },
@@ -36427,8 +36029,8 @@
             28.4458553
           ],
           [
-            -81.4744085,
-            28.4253618
+            -81.4744848,
+            28.4441503
           ]
         ]
       },
@@ -36479,6 +36081,7 @@
         "@id": "way/83229468",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "||Osceola Parkway;Animal Kingdom;Kissimmee;Magic Kingdom;Hollywood Studios|Kissimmee;Magic Kingdom;Hollywood Studios",
         "fdot:fihs": "401",
         "fdot:sis": "yes",
         "foot": "no",
@@ -36497,6 +36100,7 @@
         "tiger:name_base": "I-4",
         "tiger:name_base_1": "State Highway 400",
         "toll": "no",
+        "turn:lanes": "||through;slight_right|slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -36986,16 +36590,8 @@
             28.5035764
           ],
           [
-            -81.4295135,
-            28.498131
-          ],
-          [
-            -81.4342655,
-            28.4927061
-          ],
-          [
-            -81.4361634,
-            28.4904349
+            -81.4250211,
+            28.5032861
           ]
         ]
       },
@@ -37162,7 +36758,7 @@
         "hgv": "designated",
         "highway": "motorway",
         "horse": "no",
-        "lanes": "3",
+        "lanes": "4",
         "maxspeed": "55 mph",
         "oneway": "yes",
         "ref": "I 4",
@@ -38748,6 +38344,7 @@
         "@id": "way/84072797",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "none|none|Disney World;Kissimmee;Lake Buena Vista|Kissimmee;Lake Buena Vista",
         "fdot:county": "Orange, FL",
         "fdot:fihs": "401",
         "fdot:rci_section": "280",
@@ -38764,6 +38361,7 @@
         "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
         "surface": "asphalt",
         "toll": "no",
+        "turn:lanes": "||through;slight_right|slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -39800,7 +39398,6 @@
         "lanes": "3",
         "lit": "yes",
         "maxspeed": "65 mph",
-        "network": "US:I",
         "oneway": "yes",
         "ref": "I 2;US 83",
         "source:width": "TXDOT",
@@ -39834,10 +39431,9 @@
         "layer": "1",
         "lit": "yes",
         "maxspeed": "65 mph",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West"
+        "ref": "I 2;US 83"
       },
       "geometry": {
         "type": "LineString",
@@ -39865,9 +39461,8 @@
         "highway": "motorway",
         "lanes": "3",
         "lit": "yes",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm",
         "source:maxspeed": "sign"
       },
@@ -39913,18 +39508,6 @@
           [
             -97.7550307,
             26.1870851
-          ],
-          [
-            -97.755803,
-            26.187084
-          ],
-          [
-            -97.756369,
-            26.187083
-          ],
-          [
-            -97.7579412,
-            26.1870892
           ]
         ]
       },
@@ -41053,9 +40636,8 @@
         "highway": "motorway",
         "lanes": "2",
         "lit": "yes",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "surface": "asphalt"
       },
       "geometry": {
@@ -41214,8 +40796,8 @@
             26.2182042
           ],
           [
-            -98.3503098,
-            26.2180306
+            -98.3503928,
+            26.2181214
           ]
         ]
       },
@@ -41318,9 +40900,8 @@
         "highway": "motorway",
         "lanes": "2",
         "layer": "1",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West"
+        "ref": "I 2;US 83"
       },
       "geometry": {
         "type": "LineString",
@@ -41351,9 +40932,8 @@
         "layer": "1",
         "lit": "yes",
         "maxspeed": "65 mph",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "surface": "concrete"
       },
       "geometry": {
@@ -41383,9 +40963,8 @@
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "65 mph",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "surface": "asphalt"
       },
       "geometry": {
@@ -41446,9 +41025,8 @@
         "highway": "motorway",
         "lanes": "2",
         "maxspeed": "65 mph",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West"
+        "ref": "I 2;US 83"
       },
       "geometry": {
         "type": "LineString",
@@ -41686,39 +41264,6 @@
     {
       "type": "Feature",
       "properties": {
-        "@id": "way/102643177",
-        "NHS": "Interstate",
-        "destination": "McAllen",
-        "direction": "west",
-        "evacuation_route": "hurricane",
-        "highway": "motorway",
-        "lanes": "2",
-        "lit": "yes",
-        "maxspeed": "65 mph",
-        "network": "US:I",
-        "note": "handdrawn from GPS data",
-        "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
-        "surface": "asphalt"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -98.3492709,
-            26.2171393
-          ],
-          [
-            -98.349334,
-            26.2172121
-          ]
-        ]
-      },
-      "id": "way/102643177"
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "@id": "way/102643180",
         "NHS": "Interstate",
         "bridge": "yes",
@@ -41730,18 +41275,17 @@
         "layer": "1",
         "lit": "yes",
         "maxspeed": "65 mph",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "surface": "concrete"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -98.3484446,
-            26.2162269
+            -98.3481743,
+            26.2159396
           ],
           [
             -98.3492709,
@@ -41769,8 +41313,8 @@
         "type": "LineString",
         "coordinates": [
           [
-            -98.3486871,
-            26.2161878
+            -98.3485226,
+            26.215998
           ],
           [
             -98.347271,
@@ -41808,8 +41352,8 @@
             26.2171266
           ],
           [
-            -98.3486871,
-            26.2161878
+            -98.3485226,
+            26.215998
           ]
         ]
       },
@@ -42258,9 +41802,8 @@
         "highway": "motorway",
         "lanes": "2",
         "maxspeed": "65 mph",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West"
+        "ref": "I 2;US 83"
       },
       "geometry": {
         "type": "LineString",
@@ -42334,9 +41877,8 @@
         "lanes": "2",
         "layer": "1",
         "maxspeed": "65 mph",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "surface": "concrete"
       },
       "geometry": {
@@ -42387,6 +41929,56 @@
     {
       "type": "Feature",
       "properties": {
+        "@id": "way/103935522",
+        "NHS": "STRAHNET",
+        "highway": "motorway",
+        "lanes": "2",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 2;US 83"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -98.4116245,
+            26.2387694
+          ],
+          [
+            -98.4129916,
+            26.2389593
+          ],
+          [
+            -98.4152833,
+            26.2392518
+          ],
+          [
+            -98.4159613,
+            26.2393596
+          ],
+          [
+            -98.4176951,
+            26.2396137
+          ],
+          [
+            -98.419377,
+            26.2398284
+          ],
+          [
+            -98.4199,
+            26.2399211
+          ],
+          [
+            -98.4205428,
+            26.240035
+          ]
+        ]
+      },
+      "id": "way/103935522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "@id": "way/103935523",
         "NHS": "Interstate",
         "bridge": "yes",
@@ -42397,9 +41989,8 @@
         "lanes": "2",
         "layer": "1",
         "maxspeed": "65 mph",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "surface": "concrete"
       },
       "geometry": {
@@ -44236,10 +43827,9 @@
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "65 mph",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "surface": "asphalt"
       },
       "geometry": {
@@ -44254,8 +43844,8 @@
             26.2146199
           ],
           [
-            -98.3484446,
-            26.2162269
+            -98.3481743,
+            26.2159396
           ]
         ]
       },
@@ -45234,9 +44824,8 @@
         "highway": "motorway",
         "lanes": "3",
         "lit": "yes",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -45271,10 +44860,9 @@
         "lanes": "3",
         "layer": "1",
         "lit": "yes",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -45424,10 +45012,9 @@
         "highway": "motorway",
         "lanes": "3",
         "lit": "yes",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -45484,9 +45071,8 @@
         "highway": "motorway",
         "lanes": "3",
         "lit": "yes",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -45556,10 +45142,9 @@
         "lanes": "3",
         "layer": "1",
         "lit": "yes",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -45588,10 +45173,9 @@
         "highway": "motorway",
         "lanes": "3",
         "lit": "yes",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -45664,14 +45248,6 @@
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            -97.7579362,
-            26.1868987
-          ],
-          [
-            -97.756293,
-            26.186895
-          ],
           [
             -97.7550049,
             26.186897
@@ -45763,9 +45339,8 @@
         "lanes": "3",
         "layer": "1",
         "lit": "yes",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -45793,12 +45368,11 @@
         "direction": "west",
         "evacuation_route": "hurricane",
         "highway": "motorway",
-        "lanes": "3",
+        "lanes": "4",
         "layer": "1",
         "lit": "yes",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -45827,9 +45401,8 @@
         "highway": "motorway",
         "lanes": "3",
         "lit": "yes",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -46013,10 +45586,9 @@
         "lanes": "3",
         "lit": "yes",
         "maxspeed": "65 mph",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West"
+        "ref": "I 2;US 83"
       },
       "geometry": {
         "type": "LineString",
@@ -46062,10 +45634,9 @@
         "lanes": "3",
         "layer": "1",
         "lit": "yes",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -46185,9 +45756,8 @@
         "lanes": "3",
         "layer": "1",
         "lit": "yes",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -46434,9 +46004,8 @@
         "lanes": "3",
         "layer": "1",
         "lit": "yes",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -46465,10 +46034,9 @@
         "highway": "motorway",
         "lanes": "3",
         "lit": "yes",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -46581,10 +46149,9 @@
         "highway": "motorway",
         "lanes": "3",
         "lit": "yes",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -46649,18 +46216,13 @@
         "highway": "motorway",
         "lanes": "3",
         "lit": "yes",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
-          [
-            -97.7586069,
-            26.187082
-          ],
           [
             -97.7607311,
             26.1870873
@@ -46699,7 +46261,6 @@
         "lanes": "3",
         "lit": "yes",
         "maxspeed": "65 mph",
-        "network": "US:I",
         "oneway": "yes",
         "placement": "right_of:1",
         "ref": "I 2;US 83",
@@ -46738,9 +46299,8 @@
         "lanes": "3",
         "layer": "1",
         "lit": "yes",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -46816,10 +46376,6 @@
           [
             -97.7597177,
             26.1869022
-          ],
-          [
-            -97.7586066,
-            26.1868963
           ]
         ]
       },
@@ -46838,9 +46394,8 @@
         "lanes": "3",
         "layer": "1",
         "lit": "yes",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -46869,10 +46424,9 @@
         "highway": "motorway",
         "lanes": "3",
         "lit": "yes",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -46881,14 +46435,6 @@
           [
             -97.9139076,
             26.1563689
-          ],
-          [
-            -97.9163693,
-            26.1557706
-          ],
-          [
-            -97.9191523,
-            26.1550419
           ],
           [
             -97.9203519,
@@ -46909,9 +46455,8 @@
         "highway": "motorway",
         "lanes": "3",
         "lit": "yes",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -47027,9 +46572,8 @@
         "lanes": "3",
         "layer": "1",
         "lit": "yes",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -47124,9 +46668,8 @@
         "highway": "motorway",
         "lanes": "3",
         "lit": "yes",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -47223,10 +46766,9 @@
         "highway": "motorway",
         "lanes": "3",
         "lit": "yes",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -47357,10 +46899,9 @@
         "lanes": "3",
         "layer": "1",
         "lit": "yes",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -47453,9 +46994,8 @@
         "highway": "motorway",
         "lanes": "3",
         "lit": "yes",
-        "network": "US:I",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -47546,10 +47086,9 @@
         "lanes": "3",
         "layer": "1",
         "lit": "yes",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -47611,10 +47150,9 @@
         "lanes": "3",
         "layer": "1",
         "lit": "yes",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
       },
       "geometry": {
@@ -47681,7 +47219,7 @@
         "Texas_Trunk_System": "yes",
         "bridge": "yes",
         "highway": "motorway",
-        "lanes": "3",
+        "lanes": "4",
         "layer": "1",
         "lit": "yes",
         "oneway": "yes",
@@ -47802,10 +47340,9 @@
         "highway": "motorway",
         "lanes": "3",
         "maxspeed": "65 mph",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West"
+        "ref": "I 2;US 83"
       },
       "geometry": {
         "type": "LineString",
@@ -47899,10 +47436,9 @@
         "lanes": "3",
         "layer": "1",
         "maxspeed": "65 mph",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West"
+        "ref": "I 2;US 83"
       },
       "geometry": {
         "type": "LineString",
@@ -48188,60 +47724,8 @@
             28.2373184
           ],
           [
-            -81.633557,
-            28.244205
-          ],
-          [
-            -81.6287452,
-            28.247738
-          ],
-          [
-            -81.6284417,
-            28.2479608
-          ],
-          [
-            -81.624892,
-            28.250621
-          ],
-          [
-            -81.624426,
-            28.25098
-          ],
-          [
-            -81.622662,
-            28.252398
-          ],
-          [
-            -81.6219701,
-            28.2528677
-          ],
-          [
-            -81.618333,
-            28.255617
-          ],
-          [
-            -81.617678,
-            28.256142
-          ],
-          [
-            -81.616168,
-            28.257455
-          ],
-          [
-            -81.616103,
-            28.257524
-          ],
-          [
-            -81.615282,
-            28.258329
-          ],
-          [
-            -81.614234,
-            28.259429
-          ],
-          [
-            -81.6130908,
-            28.2606442
+            -81.6387437,
+            28.2403622
           ]
         ]
       },
@@ -51963,6 +51447,7 @@
         "@id": "way/152924208",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "Orlando|Orlando|Orlando|Lake Buena Vista",
         "fdot:county": "Orange, FL",
         "fdot:fihs": "401",
         "fdot:rci_section": "280",
@@ -51979,6 +51464,7 @@
         "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
         "surface": "asphalt",
         "toll": "no",
+        "turn:lanes": "|||slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -52002,6 +51488,7 @@
         "@id": "way/152924209",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "none|none|Disney World;Animal Kingdom;Hollywood Studios;Epcot;Disney Springs;Orlando World Center|Epcot;Disney Springs;Orlando World Center",
         "fdot:county": "Orange, FL",
         "fdot:fihs": "401",
         "fdot:rci_section": "280",
@@ -52018,6 +51505,7 @@
         "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
         "surface": "asphalt",
         "toll": "no",
+        "turn:lanes": "none|none|through;slight_right|slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -55370,10 +54858,9 @@
         "lanes": "3",
         "layer": "1",
         "maxspeed": "65 mph",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West"
+        "ref": "I 2;US 83"
       },
       "geometry": {
         "type": "LineString",
@@ -56279,10 +55766,9 @@
         "highway": "motorway",
         "lanes": "3",
         "maxspeed": "65 mph",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West"
+        "ref": "I 2;US 83"
       },
       "geometry": {
         "type": "LineString",
@@ -64096,6 +63582,7 @@
         "@id": "way/423209103",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "none|none|none;International Drive;Convention Center;International Airport;Cape Canaveral|International Drive;Convention Center;International Airport;Cape Canaveral",
         "fdot:county": "Orange, FL",
         "fdot:fihs": "401",
         "fdot:rci_section": "280",
@@ -64112,6 +63599,7 @@
         "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
         "surface": "asphalt",
         "toll": "no",
+        "turn:lanes": "none|none|through;slight_right|slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -67488,18 +66976,6 @@
           [
             -81.3865587,
             28.5233646
-          ],
-          [
-            -81.3865545,
-            28.5219937
-          ],
-          [
-            -81.3865812,
-            28.5212506
-          ],
-          [
-            -81.3866088,
-            28.5203231
           ]
         ]
       },
@@ -67549,6 +67025,7 @@
         "@id": "way/548657289",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "Daytona Beach|Daytona Beach|Daytona Beach;Kirkman Road|Kirkman Road",
         "fdot:county": "Orange, FL",
         "fdot:fihs": "401",
         "fdot:rci_section": "280",
@@ -67557,13 +67034,14 @@
         "hgv": "designated",
         "highway": "motorway",
         "horse": "no",
-        "lanes": "3",
+        "lanes": "4",
         "maxspeed": "55 mph",
         "oneway": "yes",
         "ref": "I 4",
         "sidewalk": "none",
         "surface": "asphalt",
         "toll": "no",
+        "turn:lanes": "||through;slight_right|slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -67595,6 +67073,7 @@
         "@id": "way/548660515",
         "NHS": "Interstate",
         "bicycle": "no",
+        "bridge": "yes",
         "fdot:county": "Orange, FL",
         "fdot:fihs": "401",
         "fdot:rci_section": "280",
@@ -67604,8 +67083,9 @@
         "highway": "motorway",
         "horse": "no",
         "lanes": "4",
+        "layer": "1",
         "maxspeed": "50 mph",
-        "note:maxspeed": "maxspeed variable; maximum shown is apparently 50",
+        "note:maxspeed": "maxspeed variable;maximum shown is apparently 50",
         "oneway": "yes",
         "ref": "I 4",
         "sidewalk": "none",
@@ -67623,50 +67103,6 @@
           [
             -81.3771835,
             28.5887659
-          ],
-          [
-            -81.3769019,
-            28.5884126
-          ],
-          [
-            -81.3765317,
-            28.5878544
-          ],
-          [
-            -81.3762555,
-            28.5873881
-          ],
-          [
-            -81.3759604,
-            28.5868275
-          ],
-          [
-            -81.3756949,
-            28.5861704
-          ],
-          [
-            -81.3755071,
-            28.5855816
-          ],
-          [
-            -81.3753542,
-            28.5849881
-          ],
-          [
-            -81.3752952,
-            28.5846301
-          ],
-          [
-            -81.3752865,
-            28.5843804
-          ],
-          [
-            -81.3752738,
-            28.5840177
-          ],
-          [
-            -81.3752367,
-            28.5825124
           ]
         ]
       },
@@ -67900,9 +67336,12 @@
       "type": "Feature",
       "properties": {
         "@id": "way/550787595",
+        "destination:lanes": "none|none|none;Lee Road|Lee Road",
         "highway": "motorway",
+        "lanes": "4",
         "oneway": "yes",
-        "ref": "I 4"
+        "ref": "I 4",
+        "turn:lanes": "||through;slight_right|slight_right"
       },
       "geometry": {
         "type": "LineString",
@@ -67926,10 +67365,6 @@
           [
             -81.3860684,
             28.6008566
-          ],
-          [
-            -81.3862335,
-            28.6056039
           ]
         ]
       },
@@ -68487,6 +67922,7 @@
         "@id": "way/589510146",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "none|none|none|Florida’s Turnpike;Turnpike;Miami;Ocala",
         "fdot:county": "Orange, FL",
         "fdot:fihs": "401",
         "fdot:rci_section": "280",
@@ -68502,6 +67938,7 @@
         "sidewalk": "none",
         "surface": "asphalt",
         "toll": "no",
+        "turn:lanes": "none|none|none|slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -73532,7 +72969,7 @@
         "hgv": "designated",
         "highway": "motorway",
         "horse": "no",
-        "lanes": "3",
+        "lanes": "5",
         "maxspeed": "65 mph",
         "oneway": "yes",
         "ref": "I 4",
@@ -73571,7 +73008,7 @@
         "hgv": "designated",
         "highway": "motorway",
         "horse": "no",
-        "lanes": "3",
+        "lanes": "5",
         "layer": "1",
         "maxspeed": "65 mph",
         "oneway": "yes",
@@ -73610,7 +73047,7 @@
         "hgv": "designated",
         "highway": "motorway",
         "horse": "no",
-        "lanes": "3",
+        "lanes": "4",
         "maxspeed": "65 mph",
         "oneway": "yes",
         "ref": "I 4",
@@ -74304,6 +73741,7 @@
         "@id": "way/710271273",
         "NHS": "Interstate",
         "bicycle": "no",
+        "destination:lanes": "none|none|none|none;Mall at Millenia;Holy Land Experience;Conroy Road|Mall at Millenia;Holy Land Experience;Conroy Road",
         "fdot:county": "Orange, FL",
         "fdot:fihs": "401",
         "fdot:rci_section": "280",
@@ -74312,13 +73750,14 @@
         "hgv": "designated",
         "highway": "motorway",
         "horse": "no",
-        "lanes": "3",
+        "lanes": "5",
         "maxspeed": "65 mph",
         "oneway": "yes",
         "ref": "I 4",
         "sidewalk": "none",
         "surface": "asphalt",
         "toll": "no",
+        "turn:lanes": "none|none|none|through;slight_right|slight_right",
         "unsigned_ref": "SR 400"
       },
       "geometry": {
@@ -75556,18 +74995,17 @@
         "lanes": "2",
         "lit": "yes",
         "maxspeed": "65 mph",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "surface": "asphalt"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -98.3502073,
-            26.2182184
+            -98.3503552,
+            26.2183814
           ],
           [
             -98.3512622,
@@ -75599,55 +75037,25 @@
         "layer": "1",
         "lit": "yes",
         "maxspeed": "65 mph",
-        "network": "US:I",
         "note": "handdrawn from GPS data",
         "oneway": "yes",
-        "ref": "I 2 West;US 83 West",
+        "ref": "I 2;US 83",
         "surface": "asphalt"
       },
       "geometry": {
         "type": "LineString",
         "coordinates": [
           [
-            -98.349334,
-            26.2172121
+            -98.3492709,
+            26.2171393
           ],
           [
-            -98.3502073,
-            26.2182184
+            -98.3503552,
+            26.2183814
           ]
         ]
       },
       "id": "way/777182148"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/777182149",
-        "NHS": "Interstate",
-        "highway": "motorway",
-        "lanes": "2",
-        "lit": "yes",
-        "maxspeed": "65 mph",
-        "oneway": "yes",
-        "ref": "I 2;US 83",
-        "surface": "asphalt",
-        "tiger:cfcc": "A25"
-      },
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -98.3496469,
-            26.2172865
-          ],
-          [
-            -98.3495137,
-            26.2171266
-          ]
-        ]
-      },
-      "id": "way/777182149"
     },
     {
       "type": "Feature",
@@ -75669,12 +75077,12 @@
         "type": "LineString",
         "coordinates": [
           [
-            -98.3503098,
-            26.2180306
+            -98.3503928,
+            26.2181214
           ],
           [
-            -98.3496469,
-            26.2172865
+            -98.3495137,
+            26.2171266
           ]
         ]
       },
@@ -77303,7 +76711,6 @@
         "lanes": "3",
         "lit": "yes",
         "maxspeed": "65 mph",
-        "network": "US:I",
         "oneway": "yes",
         "placement": "right_of:1",
         "ref": "I 2;US 83",
@@ -77372,6 +76779,1872 @@
         ]
       },
       "id": "way/895155548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/908647869",
+        "NHS": "Interstate",
+        "Texas_Trunk_System": "yes",
+        "direction": "west",
+        "evacuation_route": "hurricane",
+        "highway": "motorway",
+        "lanes": "4",
+        "lit": "yes",
+        "oneway": "yes",
+        "ref": "I 2;US 83",
+        "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.7586069,
+            26.187082
+          ],
+          [
+            -97.7607311,
+            26.1870873
+          ]
+        ]
+      },
+      "id": "way/908647869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/908647870",
+        "NHS": "Interstate",
+        "Texas_Trunk_System": "yes",
+        "direction": "west",
+        "evacuation_route": "hurricane",
+        "highway": "motorway",
+        "lanes": "4",
+        "lit": "yes",
+        "oneway": "yes",
+        "ref": "I 2;US 83",
+        "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm",
+        "source:maxspeed": "sign"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.7550307,
+            26.1870851
+          ],
+          [
+            -97.755803,
+            26.187084
+          ],
+          [
+            -97.756369,
+            26.187083
+          ],
+          [
+            -97.7579412,
+            26.1870892
+          ]
+        ]
+      },
+      "id": "way/908647870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/908647871",
+        "NHS": "Interstate",
+        "Texas_Trunk_System": "yes",
+        "highway": "motorway",
+        "lanes": "4",
+        "lit": "yes",
+        "oneway": "yes",
+        "ref": "I 2;US 83",
+        "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.7579362,
+            26.1868987
+          ],
+          [
+            -97.756293,
+            26.186895
+          ],
+          [
+            -97.7550049,
+            26.186897
+          ]
+        ]
+      },
+      "id": "way/908647871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/908647872",
+        "NHS": "Interstate",
+        "Texas_Trunk_System": "yes",
+        "highway": "motorway",
+        "lanes": "4",
+        "lit": "yes",
+        "oneway": "yes",
+        "ref": "I 2;US 83",
+        "source:Texas_Trunk_System": "Statewide Long-Range Transportation Plan 2035 http://www.txdot.gov/txdot_library/publications/transportation_plan.htm"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -97.7597177,
+            26.1869022
+          ],
+          [
+            -97.7586066,
+            26.1868963
+          ]
+        ]
+      },
+      "id": "way/908647872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/909535738",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "fdot:county": "Orange, FL",
+        "fdot:fihs": "401",
+        "fdot:rci_section": "280",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "4",
+        "maxspeed": "60 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
+        "surface": "asphalt",
+        "toll": "no",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.5043759,
+            28.3775578
+          ],
+          [
+            -81.5040379,
+            28.377935
+          ]
+        ]
+      },
+      "id": "way/909535738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/909639059",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "fdot:county": "Orange, FL",
+        "fdot:fihs": "401",
+        "fdot:rci_section": "280",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "4",
+        "maxspeed": "50 mph",
+        "note:maxspeed": "maxspeed variable; maximum shown is apparently 50",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "surface": "concrete",
+        "toll": "no",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.3771835,
+            28.5887659
+          ],
+          [
+            -81.3769019,
+            28.5884126
+          ],
+          [
+            -81.3765317,
+            28.5878544
+          ],
+          [
+            -81.3762555,
+            28.5873881
+          ],
+          [
+            -81.3759604,
+            28.5868275
+          ],
+          [
+            -81.3756949,
+            28.5861704
+          ],
+          [
+            -81.3755071,
+            28.5855816
+          ],
+          [
+            -81.3753542,
+            28.5849881
+          ],
+          [
+            -81.3752952,
+            28.5846301
+          ],
+          [
+            -81.3752865,
+            28.5843804
+          ],
+          [
+            -81.3752738,
+            28.5840177
+          ],
+          [
+            -81.3752367,
+            28.5825124
+          ]
+        ]
+      },
+      "id": "way/909639059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/910821259",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "fdot:fihs": "401",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
+        "surface": "asphalt",
+        "tiger:cfcc": "A15",
+        "tiger:county": "Polk, FL",
+        "tiger:name_base": "I-4",
+        "tiger:name_base_1": "State Highway 400",
+        "toll": "no",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.6494857,
+            28.2331331
+          ],
+          [
+            -81.6567327,
+            28.2277751
+          ],
+          [
+            -81.6576768,
+            28.227034
+          ],
+          [
+            -81.6584873,
+            28.2263634
+          ]
+        ]
+      },
+      "id": "way/910821259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/910821260",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "destination:lanes": "none|none|none;Haines City;Clermont|Haines City;Clermont",
+        "fdot:fihs": "401",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "4",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
+        "surface": "asphalt",
+        "tiger:cfcc": "A15",
+        "tiger:county": "Polk, FL",
+        "tiger:name_base": "I-4",
+        "tiger:name_base_1": "State Highway 400",
+        "toll": "no",
+        "turn:lanes": "none|none|through;right|right",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.6464664,
+            28.2353547
+          ],
+          [
+            -81.6488448,
+            28.2336131
+          ],
+          [
+            -81.6492451,
+            28.2333136
+          ],
+          [
+            -81.6494857,
+            28.2331331
+          ]
+        ]
+      },
+      "id": "way/910821260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/910861479",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "fdot:fihs": "401",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
+        "surface": "asphalt",
+        "tiger:cfcc": "A15",
+        "tiger:county": "Osceola, FL",
+        "tiger:name_base": "I-4",
+        "tiger:name_base_1": "State Highway 400",
+        "toll": "no",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.5456594,
+            28.3321654
+          ],
+          [
+            -81.543502,
+            28.3344463
+          ],
+          [
+            -81.5428653,
+            28.3351337
+          ],
+          [
+            -81.542338,
+            28.3357069
+          ],
+          [
+            -81.5418106,
+            28.3362764
+          ],
+          [
+            -81.5413332,
+            28.3367949
+          ],
+          [
+            -81.5388936,
+            28.3393687
+          ]
+        ]
+      },
+      "id": "way/910861479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/910871175",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "fdot:fihs": "401",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
+        "surface": "asphalt",
+        "tiger:cfcc": "A15",
+        "tiger:county": "Osceola, FL",
+        "tiger:name_base": "I-4",
+        "tiger:name_base_1": "State Highway 400",
+        "toll": "no",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.5991445,
+            28.2754423
+          ],
+          [
+            -81.5987287,
+            28.2758823
+          ],
+          [
+            -81.5975673,
+            28.2771154
+          ],
+          [
+            -81.5933423,
+            28.2816124
+          ],
+          [
+            -81.5917062,
+            28.2833582
+          ],
+          [
+            -81.5907505,
+            28.2843731
+          ],
+          [
+            -81.5876275,
+            28.2876872
+          ],
+          [
+            -81.5852581,
+            28.2901998
+          ],
+          [
+            -81.5823482,
+            28.2932836
+          ],
+          [
+            -81.5776089,
+            28.298309
+          ]
+        ]
+      },
+      "id": "way/910871175"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/910871176",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "destination:lanes": "none|none|Disney World;Epcot;Magic Kingdom;Apopka",
+        "fdot:fihs": "401",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
+        "surface": "asphalt",
+        "tiger:cfcc": "A15",
+        "tiger:county": "Osceola, FL",
+        "tiger:name_base": "I-4",
+        "tiger:name_base_1": "State Highway 400",
+        "toll": "no",
+        "turn:lanes": "none|none|through;slight_right",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.6075182,
+            28.2665297
+          ],
+          [
+            -81.6047201,
+            28.2695081
+          ],
+          [
+            -81.6009823,
+            28.2734906
+          ],
+          [
+            -81.5991445,
+            28.2754423
+          ]
+        ]
+      },
+      "id": "way/910871176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/910880428",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "fdot:county": "Orange, FL",
+        "fdot:fihs": "401",
+        "fdot:rci_section": "280",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "4",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "surface": "asphalt",
+        "toll": "no",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.4090649,
+            28.5092264
+          ],
+          [
+            -81.4047016,
+            28.5092524
+          ],
+          [
+            -81.4014188,
+            28.5092791
+          ]
+        ]
+      },
+      "id": "way/910880428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/910885456",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "fdot:county": "Orange, FL",
+        "fdot:fihs": "401",
+        "fdot:rci_section": "280",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "4",
+        "maxspeed": "50 mph",
+        "note:maxspeed": "maxspeed variable; maximum shown is apparently 50",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "surface": "concrete",
+        "toll": "no",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.3865812,
+            28.5212506
+          ],
+          [
+            -81.3866088,
+            28.5203231
+          ]
+        ]
+      },
+      "id": "way/910885456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/910885457",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "destination:lanes": "none|none|none|none;Michigan Street|Michigan Street",
+        "fdot:county": "Orange, FL",
+        "fdot:fihs": "401",
+        "fdot:rci_section": "280",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "5",
+        "maxspeed": "50 mph",
+        "note:maxspeed": "maxspeed variable;maximum shown is apparently 50",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "surface": "concrete",
+        "toll": "no",
+        "turn:lanes": "none|none|none|through;slight_right|slight_right",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.3865587,
+            28.5233646
+          ],
+          [
+            -81.3865545,
+            28.5219937
+          ],
+          [
+            -81.3865812,
+            28.5212506
+          ]
+        ]
+      },
+      "id": "way/910885457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911108482",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "destination:lanes": "none|none|none|Sand Lake Road;International Drive",
+        "fdot:county": "Orange, FL",
+        "fdot:fihs": "401",
+        "fdot:rci_section": "280",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "4",
+        "maxspeed": "60 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
+        "surface": "asphalt",
+        "toll": "no",
+        "turn:lanes": "|||slight_right",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.4740895,
+            28.4258473
+          ],
+          [
+            -81.4741577,
+            28.4454406
+          ]
+        ]
+      },
+      "id": "way/911108482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911120614",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "fdot:county": "Orange, FL",
+        "fdot:fihs": "401",
+        "fdot:rci_section": "280",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "55 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
+        "surface": "asphalt",
+        "toll": "no",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.4678044,
+            28.4638086
+          ],
+          [
+            -81.4715279,
+            28.4607414
+          ],
+          [
+            -81.4716204,
+            28.4606633
+          ],
+          [
+            -81.4717115,
+            28.4605846
+          ],
+          [
+            -81.4717969,
+            28.4605093
+          ],
+          [
+            -81.4718863,
+            28.4604293
+          ],
+          [
+            -81.471974,
+            28.4603506
+          ],
+          [
+            -81.4720592,
+            28.4602723
+          ],
+          [
+            -81.4721422,
+            28.4601952
+          ],
+          [
+            -81.4722244,
+            28.4601125
+          ],
+          [
+            -81.4723087,
+            28.4600286
+          ],
+          [
+            -81.4723941,
+            28.4599402
+          ],
+          [
+            -81.472475,
+            28.4598554
+          ],
+          [
+            -81.4725547,
+            28.4597692
+          ],
+          [
+            -81.4726295,
+            28.459685
+          ],
+          [
+            -81.4727088,
+            28.4595942
+          ],
+          [
+            -81.4727818,
+            28.4595069
+          ],
+          [
+            -81.4728543,
+            28.4594164
+          ],
+          [
+            -81.4729258,
+            28.4593247
+          ],
+          [
+            -81.4729973,
+            28.4592322
+          ],
+          [
+            -81.4730622,
+            28.4591422
+          ],
+          [
+            -81.4731314,
+            28.4590486
+          ],
+          [
+            -81.4731956,
+            28.4589547
+          ],
+          [
+            -81.4732588,
+            28.4588592
+          ],
+          [
+            -81.4733223,
+            28.4587617
+          ],
+          [
+            -81.4733837,
+            28.4586654
+          ],
+          [
+            -81.4734425,
+            28.4585696
+          ],
+          [
+            -81.4735014,
+            28.4584717
+          ],
+          [
+            -81.4735588,
+            28.4583732
+          ],
+          [
+            -81.4736136,
+            28.4582751
+          ],
+          [
+            -81.4736675,
+            28.4581746
+          ],
+          [
+            -81.4737199,
+            28.4580739
+          ],
+          [
+            -81.4737703,
+            28.4579719
+          ],
+          [
+            -81.473817,
+            28.4578711
+          ],
+          [
+            -81.4738636,
+            28.457768
+          ],
+          [
+            -81.4739085,
+            28.4576652
+          ],
+          [
+            -81.4739532,
+            28.4575626
+          ],
+          [
+            -81.4739951,
+            28.4574573
+          ],
+          [
+            -81.4740343,
+            28.4573526
+          ],
+          [
+            -81.4740708,
+            28.4572496
+          ],
+          [
+            -81.4741058,
+            28.4571455
+          ],
+          [
+            -81.474142,
+            28.4570379
+          ],
+          [
+            -81.4742093,
+            28.4568274
+          ],
+          [
+            -81.4742416,
+            28.45672
+          ],
+          [
+            -81.474271,
+            28.4566131
+          ],
+          [
+            -81.4742983,
+            28.4565111
+          ],
+          [
+            -81.4743249,
+            28.4563974
+          ],
+          [
+            -81.4743479,
+            28.4562862
+          ],
+          [
+            -81.4743698,
+            28.4561779
+          ],
+          [
+            -81.4743899,
+            28.4560696
+          ],
+          [
+            -81.4744078,
+            28.4559622
+          ],
+          [
+            -81.4744249,
+            28.4558509
+          ],
+          [
+            -81.4744402,
+            28.4557445
+          ],
+          [
+            -81.4744539,
+            28.4556321
+          ],
+          [
+            -81.4744645,
+            28.4555267
+          ],
+          [
+            -81.4744726,
+            28.4554101
+          ],
+          [
+            -81.4744821,
+            28.4553005
+          ],
+          [
+            -81.4744883,
+            28.455193
+          ],
+          [
+            -81.474493,
+            28.4550846
+          ],
+          [
+            -81.4744961,
+            28.4549738
+          ],
+          [
+            -81.4744975,
+            28.4538085
+          ]
+        ]
+      },
+      "id": "way/911120614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911120615",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "destination:lanes": "none|none|none;Sand Lake Road;International Drive",
+        "fdot:county": "Orange, FL",
+        "fdot:fihs": "401",
+        "fdot:rci_section": "280",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "55 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
+        "surface": "asphalt",
+        "toll": "no",
+        "turn:lanes": "||through;slight_right",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.464085,
+            28.4668952
+          ],
+          [
+            -81.4650794,
+            28.4660553
+          ],
+          [
+            -81.4678044,
+            28.4638086
+          ]
+        ]
+      },
+      "id": "way/911120615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911123470",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "fdot:fihs": "401",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
+        "surface": "asphalt",
+        "tiger:cfcc": "A15",
+        "tiger:county": "Osceola, FL",
+        "tiger:name_base": "I-4",
+        "toll": "no",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.5878594,
+            28.2878666
+          ],
+          [
+            -81.5909892,
+            28.2845481
+          ],
+          [
+            -81.5919521,
+            28.2835322
+          ],
+          [
+            -81.5936132,
+            28.2817847
+          ],
+          [
+            -81.5978396,
+            28.2773129
+          ],
+          [
+            -81.5989996,
+            28.2760758
+          ]
+        ]
+      },
+      "id": "way/911123470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911123471",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "destination:lanes": "none|none|none;Apopka",
+        "fdot:fihs": "401",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
+        "surface": "asphalt",
+        "tiger:cfcc": "A15",
+        "tiger:county": "Osceola, FL",
+        "tiger:name_base": "I-4",
+        "toll": "no",
+        "turn:lanes": "||through;slight_right",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.5791208,
+            28.2971313
+          ],
+          [
+            -81.5823554,
+            28.2937058
+          ],
+          [
+            -81.585498,
+            28.2903817
+          ],
+          [
+            -81.5878594,
+            28.2878666
+          ]
+        ]
+      },
+      "id": "way/911123471"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911125824",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "destination:lanes": "Tampa|Tampa|Tampa;Kirkman Road;International Drive|Kirkman Road;International Drive",
+        "fdot:county": "Orange, FL",
+        "fdot:fihs": "401",
+        "fdot:rci_section": "280",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "4",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "surface": "asphalt",
+        "toll": "no",
+        "turn:lanes": "none|none|through;slight_right|slight_right",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.4505932,
+            28.4782349
+          ],
+          [
+            -81.4520531,
+            28.4770751
+          ]
+        ]
+      },
+      "id": "way/911125824"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911132185",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "destination:lanes": "Tampa|Tampa|Tampa;John Young Parkway|John Young Parkway",
+        "fdot:county": "Orange, FL",
+        "fdot:fihs": "401",
+        "fdot:rci_section": "280",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "4",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "surface": "asphalt",
+        "toll": "no",
+        "turn:lanes": "||through;slight_right|slight_right",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.4087271,
+            28.5096848
+          ],
+          [
+            -81.4111107,
+            28.5096746
+          ],
+          [
+            -81.4134979,
+            28.5096726
+          ],
+          [
+            -81.4147891,
+            28.5096446
+          ]
+        ]
+      },
+      "id": "way/911132185"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911138775",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "fdot:county": "Orange, FL",
+        "fdot:fihs": "401",
+        "fdot:rci_section": "280",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "4",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "surface": "asphalt",
+        "toll": "no",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.4295135,
+            28.498131
+          ],
+          [
+            -81.4342655,
+            28.4927061
+          ],
+          [
+            -81.4361634,
+            28.4904349
+          ]
+        ]
+      },
+      "id": "way/911138775"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911138776",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "destination:lanes": "none|none|none|Florida’s Turnpike;Miami;Ocala;Mall at Millenia;Holy Land Experience;Conroy Road|Mall at Millenia;Holy Land Experience;Conroy Road",
+        "fdot:county": "Orange, FL",
+        "fdot:fihs": "401",
+        "fdot:rci_section": "280",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "5",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "surface": "asphalt",
+        "toll": "no",
+        "turn:lanes": "|||through;slight_right|slight_right",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.4250211,
+            28.5032861
+          ],
+          [
+            -81.4295135,
+            28.498131
+          ]
+        ]
+      },
+      "id": "way/911138776"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911145143",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "fdot:fihs": "401",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
+        "surface": "asphalt",
+        "tiger:cfcc": "A15",
+        "tiger:county": "Osceola, FL",
+        "tiger:name_base": "I-4",
+        "toll": "no",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.6094972,
+            28.2649457
+          ],
+          [
+            -81.6131286,
+            28.261084
+          ]
+        ]
+      },
+      "id": "way/911145143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911145144",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "destination:lanes": "none|none|none;Poinciana;Kissimmee",
+        "fdot:fihs": "401",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
+        "surface": "asphalt",
+        "tiger:cfcc": "A15",
+        "tiger:county": "Osceola, FL",
+        "tiger:name_base": "I-4",
+        "toll": "no",
+        "turn:lanes": "none|none|through;slight_right",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.5989996,
+            28.2760758
+          ],
+          [
+            -81.5994163,
+            28.2756329
+          ],
+          [
+            -81.6012619,
+            28.273678
+          ],
+          [
+            -81.6019736,
+            28.2728871
+          ],
+          [
+            -81.6094972,
+            28.2649457
+          ]
+        ]
+      },
+      "id": "way/911145144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911156645",
+        "highway": "motorway",
+        "oneway": "yes",
+        "ref": "I 4"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.3860684,
+            28.6008566
+          ],
+          [
+            -81.3862335,
+            28.6056039
+          ]
+        ]
+      },
+      "id": "way/911156645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911177575",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "fdot:fihs": "401",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
+        "surface": "asphalt",
+        "tiger:cfcc": "A15",
+        "tiger:county": "Polk, FL",
+        "tiger:name_base": "I-4",
+        "tiger:name_base_1": "State Highway 400",
+        "toll": "no",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.616103,
+            28.257524
+          ],
+          [
+            -81.615282,
+            28.258329
+          ],
+          [
+            -81.614234,
+            28.259429
+          ],
+          [
+            -81.6130908,
+            28.2606442
+          ]
+        ]
+      },
+      "id": "way/911177575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911177576",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "destination:lanes": "none|none|none;Poinciana;Kissimmee",
+        "fdot:fihs": "401",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
+        "surface": "asphalt",
+        "tiger:cfcc": "A15",
+        "tiger:county": "Polk, FL",
+        "tiger:name_base": "I-4",
+        "tiger:name_base_1": "State Highway 400",
+        "toll": "no",
+        "turn:lanes": "||through;slight_right",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.6387437,
+            28.2403622
+          ],
+          [
+            -81.633557,
+            28.244205
+          ],
+          [
+            -81.6287452,
+            28.247738
+          ],
+          [
+            -81.6284417,
+            28.2479608
+          ],
+          [
+            -81.624892,
+            28.250621
+          ],
+          [
+            -81.624426,
+            28.25098
+          ],
+          [
+            -81.622662,
+            28.252398
+          ],
+          [
+            -81.6219701,
+            28.2528677
+          ],
+          [
+            -81.618333,
+            28.255617
+          ],
+          [
+            -81.617678,
+            28.256142
+          ],
+          [
+            -81.616168,
+            28.257455
+          ],
+          [
+            -81.616103,
+            28.257524
+          ]
+        ]
+      },
+      "id": "way/911177576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911197715",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "destination:lanes": "none|none|none|International Airport;Cape Canaveral;International Drive;Sea World",
+        "fdot:county": "Orange, FL",
+        "fdot:fihs": "401",
+        "fdot:rci_section": "280",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "4",
+        "maxspeed": "60 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
+        "surface": "asphalt",
+        "toll": "no",
+        "turn:lanes": "none|none|none|slight_right",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.4744848,
+            28.4441503
+          ],
+          [
+            -81.4744085,
+            28.4253618
+          ]
+        ]
+      },
+      "id": "way/911197715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911214757",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "destination:lanes": "none|Daytona Beach|Daytona Beach;John Young Parkway|John Young Parkway",
+        "fdot:county": "Orange, FL",
+        "fdot:fihs": "401",
+        "fdot:rci_section": "280",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "4",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "surface": "asphalt",
+        "toll": "no",
+        "turn:lanes": "none|none|through;slight_right|slight_right",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.4302695,
+            28.4965044
+          ],
+          [
+            -81.4282448,
+            28.498764
+          ],
+          [
+            -81.4235729,
+            28.5041049
+          ],
+          [
+            -81.4229593,
+            28.504812
+          ]
+        ]
+      },
+      "id": "way/911214757"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911223989",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "destination:lanes": "Daytona Beach|Daytona Beach|Daytona Beach|Florida's Turnpike;Miami;Ocala;Valencia College;Kirkman Road;Universal Boulevard;International Drive|Universal Boulevard;International Drive",
+        "fdot:county": "Orange, FL",
+        "fdot:fihs": "401",
+        "fdot:rci_section": "280",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "5",
+        "maxspeed": "55 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
+        "surface": "asphalt",
+        "toll": "no",
+        "turn:lanes": "|||through;slight_right|slight_right",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.4720355,
+            28.4594577
+          ],
+          [
+            -81.4719555,
+            28.4595419
+          ],
+          [
+            -81.4718722,
+            28.4596266
+          ],
+          [
+            -81.471794,
+            28.4597061
+          ],
+          [
+            -81.4717058,
+            28.4597926
+          ],
+          [
+            -81.4716241,
+            28.4598694
+          ],
+          [
+            -81.4715345,
+            28.4599502
+          ],
+          [
+            -81.4714517,
+            28.4600253
+          ],
+          [
+            -81.4713576,
+            28.4601095
+          ],
+          [
+            -81.4712681,
+            28.4601863
+          ],
+          [
+            -81.4693557,
+            28.4617602
+          ]
+        ]
+      },
+      "id": "way/911223989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911234665",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "fdot:county": "Orange, FL",
+        "fdot:fihs": "401",
+        "fdot:rci_section": "280",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "3",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
+        "surface": "asphalt",
+        "toll": "no",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.5229842,
+            28.3572624
+          ],
+          [
+            -81.5305034,
+            28.3488815
+          ]
+        ]
+      },
+      "id": "way/911234665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/911234666",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "destination:lanes": "Tampa|Tampa|Tampa;Kissimmee;Magic Kingdom;Osceola Parkway;Animal Kingdom;Hollywood Studios;Gaylord Center;SunRail|Osceola Parkway;Animal Kingdom;Hollywood Studios;Gaylord Center;SunRail",
+        "fdot:county": "Orange, FL",
+        "fdot:fihs": "401",
+        "fdot:rci_section": "280",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "4",
+        "maxspeed": "65 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "source:maxspeed": "FDOT \"Maximum Speed Limits\" GIS data, updated August 27, 2011: http://www.dot.state.fl.us/planning/statistics/gis/roaddata.shtm",
+        "surface": "asphalt",
+        "toll": "no",
+        "turn:lanes": "none|none|through;slight_right|slight_right",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -81.5201333,
+            28.3604407
+          ],
+          [
+            -81.5229842,
+            28.3572624
+          ]
+        ]
+      },
+      "id": "way/911234666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/912655359",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "fdot:fihs": "401",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "4",
+        "maxspeed": "50 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "surface": "concrete",
+        "tiger:cfcc": "A15",
+        "tiger:county": "Hillsborough, FL",
+        "toll": "no",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -82.4436441,
+            27.9647591
+          ],
+          [
+            -82.443081,
+            27.9647422
+          ]
+        ]
+      },
+      "id": "way/912655359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/912747229",
+        "NHS": "Interstate",
+        "bicycle": "no",
+        "fdot:fihs": "401",
+        "fdot:sis": "yes",
+        "foot": "no",
+        "hgv": "designated",
+        "highway": "motorway",
+        "horse": "no",
+        "lanes": "4",
+        "maxspeed": "55 mph",
+        "oneway": "yes",
+        "ref": "I 4",
+        "sidewalk": "none",
+        "surface": "concrete",
+        "tiger:cfcc": "A15",
+        "tiger:county": "Hillsborough, FL",
+        "toll": "no",
+        "unsigned_ref": "SR 400"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -82.4294952,
+            27.9654186
+          ],
+          [
+            -82.4304795,
+            27.9653932
+          ]
+        ]
+      },
+      "id": "way/912747229"
     }
   ]
 }
